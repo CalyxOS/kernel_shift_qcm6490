@@ -89,6 +89,7 @@ modules.order
 !.get_maintainer.ignore
 !.gitattributes
 !.gitignore
+!.gitreview
 !.mailmap
 
 #
