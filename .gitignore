@@ -90,6 +90,7 @@ modules.order
 !.gitattributes
 !.gitignore
 !.gitreview
+!.gitupstream*
 !.mailmap
 
 #
