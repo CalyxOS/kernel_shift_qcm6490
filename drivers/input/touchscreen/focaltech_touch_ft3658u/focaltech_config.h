@@ -237,6 +237,12 @@
  */
 #define FTS_POWER_SOURCE_CUST_EN                1
 
+/*
+ * Enable or disable binary flashing via sysfs
+ * default: disable
+ */
+#define FTS_ENABLE_BINARY_FLASHING              0
+
 /****************************************************/
 
 /********************** Upgrade ****************************/
@@ -283,7 +289,7 @@
  * define your own fw_file, the sample one to be replaced is invalid
  * NOTE: if FTS_GET_MODULE_NUM > 1, it's the fw corresponding with FTS_VENDOR_ID
  */
-#define FTS_UPGRADE_FW_FILE                     "include/firmware/FST000_MZ06701_FT3658U_Z09L_20241029_app.i"
+#define FTS_UPGRADE_FW_FILE                     "include/firmware/FST000_MZ06701_FT3658U_Z11L_20241119_app.i"
 
 /*
  * if FTS_GET_MODULE_NUM >= 2, fw corrsponding with FTS_VENDOR_ID2
